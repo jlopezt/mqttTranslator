@@ -1,0 +1,10 @@
+{
+  "MQTT":{
+    "Broker_IP": "10.68.1.100",
+    "Broker_Puerto" : 1883,
+    "sub_topic" : "zigbee2mqtt/+",
+    "pub_topic" : "casa/",
+    "MQTTUser" : "domoticae",
+    "MQTTPassword" : "88716"
+  }
+}
