@@ -149,7 +149,7 @@ def main(argv):
         mqttc.publish(pub_topic, mensaje)
         #mqttc.loop(2) //timeout = 2s
         '''
-        print(f'publico en el topico {topic} el mensaje {mensaje}')
+        print(f'publico en el topico {topic} el mensaje {mensaje} con QoS {qos} y retain {retain}')
         ret=client.publish(topic,mensaje,qos=qos,retain=retain)
         print(f'con el resultado {ret.rc}')
         
